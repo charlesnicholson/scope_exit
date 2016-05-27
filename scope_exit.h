@@ -1,3 +1,4 @@
+// this code is in the public domain. see the LICENSE file for details.
 #pragma once
 
 #include <utility>
