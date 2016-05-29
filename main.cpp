@@ -4,9 +4,13 @@
 
 int main()
 {
+    int a = 10;
     SCOPE_EXIT { std::printf("exiting\n"); };
+    SCOPE_EXIT { std::printf("a == %d\n", a); };
     SCOPE_EXIT { std::printf(" world\n"); };
+    SCOPE_EXIT { a *= 2; };
     std::printf("hello");
+    ++a;
     return 0;
 }
 

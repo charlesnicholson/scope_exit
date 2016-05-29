@@ -1,4 +1,5 @@
 // this code is in the public domain. see the LICENSE file for details.
+// Simple implementation of Andrei Alexandrescu's scope guard, from one of his C++ talks.
 #pragma once
 
 #include <utility>
